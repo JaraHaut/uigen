@@ -1,0 +1,42 @@
+- generic [active] [ref=e1]:
+  - alert [ref=e89]
+  - generic [ref=e209]:
+    - generic [ref=e211]:
+      - heading "React Component Generator" [level=1] [ref=e213]
+      - generic [ref=e215]:
+        - generic [ref=e221]:
+          - generic [ref=e257]:
+            - generic [ref=e260]: Build a Kanban board with 3 columns (To Do, In Progress, Done), draggable task cards with priority badges (high/medium/low), assignee avatars, and a button to add new tasks.
+            - img [ref=e263]
+          - generic [ref=e266]:
+            - img [ref=e269]
+            - generic [ref=e274]:
+              - paragraph [ref=e276]: I'll build a distinctive Kanban board with a bold, editorial design aesthetic.
+              - generic [ref=e279]: Creating App.jsx
+              - separator [ref=e280]
+              - paragraph [ref=e282]: "Now I'll create the main Kanban board component:"
+              - generic [ref=e283]:
+                - img [ref=e284]
+                - generic [ref=e286]: Generating...
+        - generic [ref=e229]:
+          - textbox "Describe the React component you want to create..." [disabled] [ref=e230]
+          - button [disabled] [ref=e231]:
+            - img [ref=e232]
+    - separator [ref=e235]
+    - generic [ref=e237]:
+      - generic [ref=e238]:
+        - tablist [ref=e240]:
+          - tab "Preview" [selected] [ref=e241]
+          - tab "Code" [ref=e242]
+        - generic [ref=e243]:
+          - combobox [ref=e244]:
+            - img
+            - text: "Design #96546"
+            - img
+          - button "New Design" [ref=e245]:
+            - img
+            - text: New Design
+          - button "Sign out" [ref=e246]:
+            - img
+      - iframe [ref=e287]:
+        

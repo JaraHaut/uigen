@@ -1,0 +1,91 @@
+- generic [active] [ref=e1]:
+  - alert [ref=e89]
+  - generic [ref=e209]:
+    - generic [ref=e211]:
+      - heading "React Component Generator" [level=1] [ref=e213]
+      - generic [ref=e215]:
+        - generic [ref=e221]:
+          - generic [ref=e257]:
+            - generic [ref=e260]: Build a Kanban board with 3 columns (To Do, In Progress, Done), draggable task cards with priority badges (high/medium/low), assignee avatars, and a button to add new tasks.
+            - img [ref=e263]
+          - generic [ref=e288]:
+            - img [ref=e291]
+            - generic [ref=e296]:
+              - paragraph [ref=e298]: I'll build a distinctive Kanban board with a bold, editorial design aesthetic.
+              - generic [ref=e301]: Creating App.jsx
+              - separator [ref=e302]
+              - paragraph [ref=e304]: "Now I'll create the main Kanban board component:"
+              - generic [ref=e307]: Creating KanbanBoard.jsx
+              - separator [ref=e308]
+              - paragraph [ref=e310]: "Now the Column component:"
+              - generic [ref=e313]: Creating Column.jsx
+              - separator [ref=e314]
+              - paragraph [ref=e316]: "Now the TaskCard component with priority badges and assignee avatars:"
+              - generic [ref=e319]: Creating TaskCard.jsx
+              - separator [ref=e320]
+              - paragraph [ref=e322]: "Now the PriorityBadge component:"
+              - generic [ref=e325]: Creating PriorityBadge.jsx
+        - generic [ref=e229]:
+          - textbox "Describe the React component you want to create..." [ref=e230]
+          - button [disabled] [ref=e231]:
+            - img [ref=e232]
+    - separator [ref=e235]
+    - generic [ref=e237]:
+      - generic [ref=e238]:
+        - tablist [ref=e240]:
+          - tab "Preview" [selected] [ref=e241]
+          - tab "Code" [ref=e242]
+        - generic [ref=e243]:
+          - combobox [ref=e244]:
+            - img
+            - text: "Design #96546"
+            - img
+          - button "New Design" [ref=e245]:
+            - img
+            - text: New Design
+          - button "Sign out" [ref=e246]:
+            - img
+      - iframe [ref=e287]:
+        - generic [ref=f5e5]:
+          - generic [ref=f5e6]:
+            - generic [ref=f5e7]:
+              - heading "TASKS" [level=1] [ref=f5e8]
+              - paragraph [ref=f5e9]: Organize your workflow
+            - button "+ NEW TASK" [ref=f5e10] [cursor=pointer]
+          - generic [ref=f5e11]:
+            - generic [ref=f5e12]:
+              - generic [ref=f5e13]:
+                - heading "To Do" [level=2] [ref=f5e14]
+                - paragraph [ref=f5e15]: 3 tasks
+              - generic [ref=f5e16]:
+                - generic [ref=f5e17]:
+                  - heading "Design system audit" [level=3] [ref=f5e19]
+                  - generic [ref=f5e23]: high
+                - generic [ref=f5e25]:
+                  - heading "Update documentation" [level=3] [ref=f5e27]
+                  - generic [ref=f5e31]: medium
+                - generic [ref=f5e33]:
+                  - heading "Fix responsive issues" [level=3] [ref=f5e35]
+                  - generic [ref=f5e39]: high
+            - generic [ref=f5e41]:
+              - generic [ref=f5e42]:
+                - heading "In Progress" [level=2] [ref=f5e43]
+                - paragraph [ref=f5e44]: 2 tasks
+              - generic [ref=f5e45]:
+                - generic [ref=f5e46]:
+                  - heading "Implement dark mode" [level=3] [ref=f5e48]
+                  - generic [ref=f5e52]: medium
+                - generic [ref=f5e54]:
+                  - heading "API integration" [level=3] [ref=f5e56]
+                  - generic [ref=f5e60]: high
+            - generic [ref=f5e62]:
+              - generic [ref=f5e63]:
+                - heading "Done" [level=2] [ref=f5e64]
+                - paragraph [ref=f5e65]: 2 tasks
+              - generic [ref=f5e66]:
+                - generic [ref=f5e67]:
+                  - heading "Setup project repo" [level=3] [ref=f5e69]
+                  - generic [ref=f5e73]: low
+                - generic [ref=f5e75]:
+                  - heading "Initial wireframes" [level=3] [ref=f5e77]
+                  - generic [ref=f5e81]: medium

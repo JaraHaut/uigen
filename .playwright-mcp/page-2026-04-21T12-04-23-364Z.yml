@@ -1,0 +1,41 @@
+- generic [active] [ref=e1]:
+  - alert [ref=e89]
+  - generic [ref=e327]:
+    - generic [ref=e329]:
+      - heading "React Component Generator" [level=1] [ref=e331]
+      - generic [ref=e333]:
+        - generic [ref=e339]:
+          - generic [ref=e375]:
+            - generic [ref=e378]: Create a user profile card with an avatar, name, bio, social stats (followers, following, posts), a follow button, and a grid of recent photo thumbnails. Dark theme with accent colors.
+            - img [ref=e381]
+          - generic [ref=e384]:
+            - img [ref=e387]
+            - generic [ref=e392]:
+              - generic [ref=e395]: Creating App.jsx
+              - separator [ref=e396]
+              - paragraph [ref=e398]: "Now I'll create the UserProfileCard component:"
+              - generic [ref=e399]:
+                - img [ref=e400]
+                - generic [ref=e402]: Generating...
+        - generic [ref=e347]:
+          - textbox "Describe the React component you want to create..." [disabled] [ref=e348]
+          - button [disabled] [ref=e349]:
+            - img [ref=e350]
+    - separator [ref=e353]
+    - generic [ref=e355]:
+      - generic [ref=e356]:
+        - tablist [ref=e358]:
+          - tab "Preview" [selected] [ref=e359]
+          - tab "Code" [ref=e360]
+        - generic [ref=e361]:
+          - combobox [ref=e362]:
+            - img
+            - text: "Design #85612"
+            - img
+          - button "New Design" [ref=e363]:
+            - img
+            - text: New Design
+          - button "Sign out" [ref=e364]:
+            - img
+      - iframe [ref=e403]:
+        

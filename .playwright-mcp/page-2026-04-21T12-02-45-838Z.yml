@@ -1,0 +1,125 @@
+- generic [active] [ref=e1]:
+  - alert [ref=e89]
+  - generic [ref=e91]:
+    - generic [ref=e93]:
+      - heading "React Component Generator" [level=1] [ref=e95]
+      - generic [ref=e97]:
+        - generic [ref=e103]:
+          - generic [ref=e139]:
+            - generic [ref=e142]: Create a weather widget showing current temperature, weather condition with an icon, humidity, wind speed, and a 5-day forecast. Use a beautiful gradient background from blue to purple.
+            - img [ref=e145]
+          - generic [ref=e168]:
+            - img [ref=e171]
+            - generic [ref=e176]:
+              - generic [ref=e179]: Creating App.jsx
+              - separator [ref=e180]
+              - paragraph [ref=e182]: "Now let me create the WeatherWidget component:"
+              - generic [ref=e185]: Creating WeatherWidget.jsx
+              - separator [ref=e186]
+              - generic [ref=e187]:
+                - paragraph [ref=e188]: "Done! I've created a beautiful weather widget with:"
+                - paragraph [ref=e189]:
+                  - strong [ref=e190]: "Main Features:"
+                - list [ref=e191]:
+                  - listitem [ref=e192]: Large, bold temperature display (text-7xl font-black)
+                  - listitem [ref=e193]: Current weather condition with dynamic icons
+                  - listitem [ref=e194]: Humidity and wind speed in frosted glass cards with backdrop blur
+                  - listitem [ref=e195]: 5-day forecast with individual day cards
+                  - listitem [ref=e196]: Smooth hover animations on forecast cards
+                - paragraph [ref=e197]:
+                  - strong [ref=e198]: "Design Highlights:"
+                - list [ref=e199]:
+                  - listitem [ref=e200]: Blue-to-purple gradient background on the main card with overlay depth
+                  - listitem [ref=e201]: Frosted glass effect (backdrop-blur) for the detail cards
+                  - listitem [ref=e202]: High contrast white text on gradient
+                  - listitem [ref=e203]: Interactive forecast cards with scale-up hover effect
+                  - listitem [ref=e204]: Clean, modern typography with strong hierarchy
+                  - listitem [ref=e205]: Responsive grid layout that adapts to screen size
+                - paragraph [ref=e206]:
+                  - text: The widget uses mock data, but you can easily connect it to a real weather API by replacing the
+                  - code [ref=e207]: useEffect
+                  - text: fetch logic.
+        - generic [ref=e111]:
+          - textbox "Describe the React component you want to create..." [ref=e112]
+          - button [disabled] [ref=e113]:
+            - img [ref=e114]
+    - separator [ref=e117]
+    - generic [ref=e119]:
+      - generic [ref=e120]:
+        - tablist [ref=e122]:
+          - tab "Preview" [selected] [ref=e123]
+          - tab "Code" [ref=e124]
+        - generic [ref=e125]:
+          - combobox [ref=e126]:
+            - img
+            - text: "Design #3456"
+            - img
+          - button "New Design" [ref=e127]:
+            - img
+            - text: New Design
+          - button "Sign out" [ref=e128]:
+            - img
+      - iframe [ref=e167]:
+        - generic [ref=f3e4]:
+          - generic [ref=f3e6]:
+            - generic [ref=f3e7]:
+              - generic [ref=f3e8]:
+                - heading "San Francisco, CA" [level=2] [ref=f3e9]
+                - paragraph [ref=f3e10]: Today
+              - generic [ref=f3e11]:
+                - paragraph [ref=f3e12]: Feels like
+                - paragraph [ref=f3e13]: 70°
+            - generic [ref=f3e14]:
+              - generic [ref=f3e15]:
+                - generic [ref=f3e16]: 72°
+                - paragraph [ref=f3e17]: Partly Cloudy
+              - img [ref=f3e19]
+            - generic [ref=f3e21]:
+              - generic [ref=f3e23]:
+                - img [ref=f3e24]
+                - generic [ref=f3e27]:
+                  - paragraph [ref=f3e28]: Humidity
+                  - paragraph [ref=f3e29]: 65%
+              - generic [ref=f3e31]:
+                - img [ref=f3e32]
+                - generic [ref=f3e36]:
+                  - paragraph [ref=f3e37]: Wind Speed
+                  - paragraph [ref=f3e38]: 12 mph
+          - generic [ref=f3e39]:
+            - heading "5-Day Forecast" [level=3] [ref=f3e40]
+            - generic [ref=f3e41]:
+              - generic [ref=f3e42]:
+                - paragraph [ref=f3e43]: Mon
+                - img [ref=f3e45]
+                - paragraph [ref=f3e51]: Sunny
+                - generic [ref=f3e52]:
+                  - generic [ref=f3e53]: 75°
+                  - generic [ref=f3e54]: 62°
+              - generic [ref=f3e55]:
+                - paragraph [ref=f3e56]: Tue
+                - img [ref=f3e58]
+                - paragraph [ref=f3e60]: Cloudy
+                - generic [ref=f3e61]:
+                  - generic [ref=f3e62]: 73°
+                  - generic [ref=f3e63]: 61°
+              - generic [ref=f3e64]:
+                - paragraph [ref=f3e65]: Wed
+                - img [ref=f3e67]
+                - paragraph [ref=f3e69]: Rainy
+                - generic [ref=f3e70]:
+                  - generic [ref=f3e71]: 68°
+                  - generic [ref=f3e72]: 58°
+              - generic [ref=f3e73]:
+                - paragraph [ref=f3e74]: Thu
+                - img [ref=f3e76]
+                - paragraph [ref=f3e78]: Drizzle
+                - generic [ref=f3e79]:
+                  - generic [ref=f3e80]: 70°
+                  - generic [ref=f3e81]: 59°
+              - generic [ref=f3e82]:
+                - paragraph [ref=f3e83]: Fri
+                - img [ref=f3e85]
+                - paragraph [ref=f3e91]: Sunny
+                - generic [ref=f3e92]:
+                  - generic [ref=f3e93]: 76°
+                  - generic [ref=f3e94]: 63°

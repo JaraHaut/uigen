@@ -1,0 +1,119 @@
+- generic [active] [ref=e1]:
+  - alert [ref=e89]
+  - generic [ref=e327]:
+    - generic [ref=e329]:
+      - heading "React Component Generator" [level=1] [ref=e331]
+      - generic [ref=e333]:
+        - generic [ref=e339]:
+          - generic [ref=e375]:
+            - generic [ref=e378]: Create a user profile card with an avatar, name, bio, social stats (followers, following, posts), a follow button, and a grid of recent photo thumbnails. Dark theme with accent colors.
+            - img [ref=e381]
+          - generic [ref=e404]:
+            - img [ref=e407]
+            - generic [ref=e412]:
+              - generic [ref=e415]: Creating App.jsx
+              - separator [ref=e416]
+              - paragraph [ref=e418]: "Now I'll create the UserProfileCard component:"
+              - generic [ref=e421]: Creating UserProfileCard.jsx
+              - separator [ref=e422]
+              - generic [ref=e423]:
+                - paragraph [ref=e424]: "Done. The profile card features:"
+                - paragraph [ref=e425]:
+                  - strong [ref=e426]: "Bold design choices:"
+                - list [ref=e427]:
+                  - listitem [ref=e428]:
+                    - strong [ref=e429]: Gradient header
+                    - text: with layered radial blur effects instead of flat color
+                  - listitem [ref=e430]:
+                    - strong [ref=e431]: Amber/rose accent palette
+                    - text: (not blue) with cyan highlights for contrast
+                  - listitem [ref=e432]:
+                    - strong [ref=e433]: Thick border
+                    - text: (border-2) with amber glow on the card
+                  - listitem [ref=e434]:
+                    - strong [ref=e435]: Oversized typography
+                    - text: — font-black on stats and headings
+                  - listitem [ref=e436]:
+                    - strong [ref=e437]: Interactive follow button
+                    - text: with gradient fill and hover glow effect
+                  - listitem [ref=e438]:
+                    - strong [ref=e439]: Photo grid hover states
+                    - text: — images scale up with overlay icons appearing
+                  - listitem [ref=e440]:
+                    - strong [ref=e441]: Status indicator
+                    - text: — emerald dot on avatar
+                  - listitem [ref=e442]:
+                    - strong [ref=e443]: Dark slate-950 background
+                    - text: with gradient depth
+                - paragraph [ref=e444]: The follow button toggles state with smooth transitions, and all interactive elements have micro-interactions (scale, shadow, opacity changes).
+        - generic [ref=e347]:
+          - textbox "Describe the React component you want to create..." [ref=e348]
+          - button [disabled] [ref=e349]:
+            - img [ref=e350]
+    - separator [ref=e353]
+    - generic [ref=e355]:
+      - generic [ref=e356]:
+        - tablist [ref=e358]:
+          - tab "Preview" [selected] [ref=e359]
+          - tab "Code" [ref=e360]
+        - generic [ref=e361]:
+          - combobox [ref=e362]:
+            - img
+            - text: "Design #85612"
+            - img
+          - button "New Design" [ref=e363]:
+            - img
+            - text: New Design
+          - button "Sign out" [ref=e364]:
+            - img
+      - iframe [ref=e403]:
+        - generic [ref=f7e10]:
+          - generic [ref=f7e11]:
+            - img "Avatar" [ref=f7e13]
+            - heading "Alex Rivera" [level=2] [ref=f7e15]
+            - paragraph [ref=f7e16]: "@alexrivera"
+            - paragraph [ref=f7e17]: Creative director & photographer. Coffee enthusiast. Always exploring new perspectives.
+            - generic [ref=f7e18]:
+              - generic [ref=f7e19]:
+                - paragraph [ref=f7e20]: 2.4K
+                - paragraph [ref=f7e21]: Followers
+              - generic [ref=f7e22]:
+                - paragraph [ref=f7e23]: "847"
+                - paragraph [ref=f7e24]: Following
+              - generic [ref=f7e25]:
+                - paragraph [ref=f7e26]: "156"
+                - paragraph [ref=f7e27]: Posts
+            - button "+ Follow" [ref=f7e28] [cursor=pointer]
+          - generic [ref=f7e29]:
+            - heading "Recent Photos" [level=3] [ref=f7e30]
+            - generic [ref=f7e31]:
+              - generic [ref=f7e32] [cursor=pointer]:
+                - img "Photo 1" [ref=f7e33]
+                - generic [ref=f7e35]:
+                  - img [ref=f7e36]
+                  - img [ref=f7e38]
+              - generic [ref=f7e40] [cursor=pointer]:
+                - img "Photo 2" [ref=f7e41]
+                - generic [ref=f7e43]:
+                  - img [ref=f7e44]
+                  - img [ref=f7e46]
+              - generic [ref=f7e48] [cursor=pointer]:
+                - img "Photo 3" [ref=f7e49]
+                - generic [ref=f7e51]:
+                  - img [ref=f7e52]
+                  - img [ref=f7e54]
+              - generic [ref=f7e56] [cursor=pointer]:
+                - img "Photo 4" [ref=f7e57]
+                - generic [ref=f7e59]:
+                  - img [ref=f7e60]
+                  - img [ref=f7e62]
+              - generic [ref=f7e64] [cursor=pointer]:
+                - img "Photo 5" [ref=f7e65]
+                - generic [ref=f7e67]:
+                  - img [ref=f7e68]
+                  - img [ref=f7e70]
+              - generic [ref=f7e72] [cursor=pointer]:
+                - img "Photo 6" [ref=f7e73]
+                - generic [ref=f7e75]:
+                  - img [ref=f7e76]
+                  - img [ref=f7e78]

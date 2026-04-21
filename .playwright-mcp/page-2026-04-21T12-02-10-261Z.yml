@@ -1,0 +1,41 @@
+- generic [active] [ref=e1]:
+  - alert [ref=e89]
+  - generic [ref=e91]:
+    - generic [ref=e93]:
+      - heading "React Component Generator" [level=1] [ref=e95]
+      - generic [ref=e97]:
+        - generic [ref=e103]:
+          - generic [ref=e139]:
+            - generic [ref=e142]: Create a weather widget showing current temperature, weather condition with an icon, humidity, wind speed, and a 5-day forecast. Use a beautiful gradient background from blue to purple.
+            - img [ref=e145]
+          - generic [ref=e148]:
+            - img [ref=e151]
+            - generic [ref=e156]:
+              - generic [ref=e159]: Creating App.jsx
+              - separator [ref=e160]
+              - paragraph [ref=e162]: "Now let me create the WeatherWidget component:"
+              - generic [ref=e163]:
+                - img [ref=e164]
+                - generic [ref=e166]: Generating...
+        - generic [ref=e111]:
+          - textbox "Describe the React component you want to create..." [disabled] [ref=e112]
+          - button [disabled] [ref=e113]:
+            - img [ref=e114]
+    - separator [ref=e117]
+    - generic [ref=e119]:
+      - generic [ref=e120]:
+        - tablist [ref=e122]:
+          - tab "Preview" [selected] [ref=e123]
+          - tab "Code" [ref=e124]
+        - generic [ref=e125]:
+          - combobox [ref=e126]:
+            - img
+            - text: "Design #3456"
+            - img
+          - button "New Design" [ref=e127]:
+            - img
+            - text: New Design
+          - button "Sign out" [ref=e128]:
+            - img
+      - iframe [ref=e167]:
+        
