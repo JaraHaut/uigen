@@ -77,7 +77,10 @@ export function MainContent({ user, project }: MainContentProps) {
                 {/* Content Area */}
                 <div className="flex-1 overflow-hidden bg-neutral-50">
                   {activeView === "preview" ? (
-                    <div className="h-full bg-white">
+                    // When the mouse leaves the preview area toward the tab buttons,
+                    // return focus to the parent window so the next click registers
+                    // immediately instead of needing two clicks (iframe focus-stealing fix).
+                    <div className="h-full bg-white" onMouseLeave={() => window.focus()}>
                       <PreviewFrame />
                     </div>
                   ) : (
